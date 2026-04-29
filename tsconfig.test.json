@@ -1,0 +1,20 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noUnusedLocals": false,
+    "noUnusedParameters": false
+  },
+  "include": [
+    "**/*.test.ts",
+    "**/test/**/*",
+    "**/*.d.ts",
+    "**/*.js",
+    "**/*.ts",
+    "**/*.svelte",
+    "client/js/**/*"
+  ],
+  "exclude": [
+    "**/dist/**/*",
+    "**/node_modules/**/*"
+  ]
+}
